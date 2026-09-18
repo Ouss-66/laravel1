@@ -1,0 +1,3 @@
+Laravel CRUD - Game Collection
+
+ik denk dat we hierin gaan leren hoe we een "game" maken of een plek waar je ze kan opslaan
