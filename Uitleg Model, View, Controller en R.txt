@@ -1,0 +1,11 @@
+Uitleg Model, View, Controller en Router.
+
+Model:
+Praat met de database 
+
+View: 
+bepaalt wat de gebruiker ziet hierin staat ook de html, css etc 
+
+Controller: haalt data op en stuurt die naar een view. 
+
+Router: koppelt een URL aan een controllerfunctie.

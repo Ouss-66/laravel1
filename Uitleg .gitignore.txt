@@ -1,0 +1,3 @@
+Uitleg .gitignore
+
+Laravel maakt automatisch een ".gitignore" aan omdat hier in staat wat git niet moet uploaden dingen zoals wachtwoorden of geheime instellingen etc.
