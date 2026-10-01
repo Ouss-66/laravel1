@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 Route::get('games', [GameController::class, 'index']);
+Route::get('games/create', [GameController::class, 'create']);
+Route::post('games/store', [GameController::class, 'store']);
