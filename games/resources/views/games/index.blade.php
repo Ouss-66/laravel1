@@ -18,6 +18,8 @@
                     <th>Platform</th>
                     <th>Genre</th>
                     <th>Rating</th>
+                    <th>Edit</th>
+                     <th>Delete</th>
                 </tr>
             </thead>
             <tbody>
@@ -28,6 +30,17 @@
                         <td>{{ $game->platform }}</td>
                         <td>{{ $game->genre }}</td>
                         <td>{{ $game->rating }}/10</td> 
+                        <td><a href="/games/edit/{{ $game->id }}" class="btn btn-primary btn-sm">Edit</a></td>
+                        <td>
+    <form action="/games/destroy/{{ $game->id }}" method="post">
+        @csrf
+        <button onclick="return confirm('Weet je het zeker?')" class="btn btn-danger btn-sm" type="submit">Delete</button>
+    </form>
+</td>
+                       
+    
+
+                        
                     </tr>
                 @endforeach
             </tbody>
