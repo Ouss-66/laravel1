@@ -69,4 +69,9 @@ public function destroy($id)
         $game->delete();
         return redirect('/games');
     }
+    public function show($id)
+{
+    $game = Game::find($id);
+    return view('games.show', ['game' => $game]);
+}
 }
