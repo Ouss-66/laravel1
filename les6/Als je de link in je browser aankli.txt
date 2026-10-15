@@ -1,0 +1,3 @@
+Als je de link in je browser aanklikt, zoekt Laravel de route /games/edit/1 op in web.php. Die stuur je door naar de edit() functie in de GameController. De controller haalt de juiste game op uit de database met Game::find(1) en laadt het formulier in edit.blade.php, waar de oude gegevens al in de invoervelden staan.
+
+Wanneer je het formulier aanpast en instuurt, gaat er een POST-verzoek naar /games/update/1. Laravel stuurt dit naar de update() functie in de controller. Die controleert de invoer, haalt de game weer op uit de database, overschrijft de oude gegevens met de nieuwe waarden en slaat alles op met save(). Vervolgens word je teruggestuurd naar de overzichtspagina waar je de aanpassing ziet.
