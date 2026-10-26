@@ -1,0 +1,11 @@
+Wat is een package?
+
+Een package is een kant-en-klaar stuk externe code dat door iemand anders is geschreven en gepubliceerd (zoals een plugin). Hiermee hoef je niet zelf alle functionaliteit vanaf nul te bouwen.
+
+Waarom staat Debugbar onder require-dev?
+
+Omdat de Debugbar gevoelige technische informatie toont en alleen nuttig is tijdens het ontwikkelen. Met --dev geef je aan dat de package niet meegehoopt hoeft te worden naar een live website voor normale bezoekers.
+
+Noem één voordeel van Composer:
+
+Composer beheert automatisch alle benodigde pakketten en dependencies, zodat je handmatig geen code hoeft te kopiëren en alles naadloos samenwerkt met Laravel.

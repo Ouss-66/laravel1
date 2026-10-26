@@ -1,0 +1,9 @@
+gegevens admin
+Name
+Oussama
+Email
+oussama@admin.nl
+Password
+Wachtwoord12345!
+Confirm Password
+Wachtwoord12345!

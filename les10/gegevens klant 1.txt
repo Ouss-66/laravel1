@@ -1,0 +1,10 @@
+gegevens klant 1
+
+Name
+Oussama 
+Email
+oussama@klant.nl
+Password
+Wachtwoord123!
+Confirm Password
+Wachtwoord123!

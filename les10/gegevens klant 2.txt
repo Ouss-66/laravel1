@@ -1,0 +1,10 @@
+gegevens klant 2
+
+Name
+Ilyas
+Email
+ilyas@klant.nl
+Password
+Wachtwoord1234!
+Confirm Password
+Wachtwoord1234!
