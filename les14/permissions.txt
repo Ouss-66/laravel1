@@ -1,0 +1,11 @@
+id: 1 | name: product bekijken | guard_name: web
+
+id: 2 | name: product bestellen | guard_name: web
+
+id: 3 | name: product invoeren | guard_name: web
+
+id: 4 | name: product aanpassen | guard_name: web
+
+id: 5 | name: product verwijderen | guard_name: web
+
+id: 6 | name: bestellingen bekijken | guard_name: web
