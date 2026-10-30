@@ -57,3 +57,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Adminbeheer
+
+De adminbeheeromgeving bevat vier onderdelen: permissies beheren, rollen beheren,
+permissies aan rollen koppelen en rollen aan gebruikers koppelen. Alleen ingelogde
+gebruikers met de rol `admin` hebben toegang. Alle pagina's zijn beschikbaar via
+de adminnavigatie of onder `/admin`.
+
+Voer na het aanmaken van de database de migraties en seeders uit:
+
+```bash
+php artisan migrate
+php artisan db:seed
+```
+
+Maak of registreer daarna een gebruiker met een e-mailadres dat eindigt op
+`@admin.nl` en voer de seeder opnieuw uit om de gebruiker de adminrol te geven:
+
+```bash
+php artisan db:seed --class=RolesAndPermissionsSeeder
+```
